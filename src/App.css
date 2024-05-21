@@ -1,0 +1,190 @@
+nav {
+    padding-top: 0rem;
+}
+
+nav .container {
+    width: unset;
+    text-align: center;
+}
+
+.App-logo {
+    height: 5rem;
+    pointer-events: none;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    padding: 2rem;
+    padding-top: 1rem;
+    background-color: #273A4E;
+    font-family: Poppins, sans-serif;
+    /* background-color: #273A4E; */
+}
+
+header {
+    /* padding-top: 0.5rem; */
+    font-family: 'Poppins', sans-serif;
+    justify-content: start;
+
+}
+
+.header .container {
+    padding: 0;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0;
+    color: #fff;
+    /* text-align: center; */
+}
+
+h3 {
+    display: block;
+    margin-block-start: 0.25rem;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-bottom: 10px;
+    color: #fff;
+}
+
+p1 {
+    display: block;
+    margin-block-start: 0em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: center;
+    color: #fff;
+}
+
+p2 {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: #aaa;
+    padding-bottom: 10px;
+}
+
+/* -- Below is the hoglue widget items */
+.hg-widget {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 1.5rem;
+}
+
+.hg-flows-container {
+    display: contents !important;
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; */
+}
+
+.hg-connectors {
+    display: contents !important;
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; */
+}
+
+.hg-widget .hg-connector-card {
+    background: #394959;
+    border: 1px solid #485B6D;
+    height: 15rem;
+    padding: 0.5rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 0.5rem !important;
+}
+
+/* -- Element ID css-huskxe contains each connectors logo, name, and linked */
+.css-huskxe {
+    display: flex !important; /* Enable flexbox layout */
+    flex-direction: column; /* Stack elements vertically */
+    gap: 0rem !important;
+}
+
+.hg-connector-card .hg-connector-logo {
+    border-radius: 0%;
+    width: 4rem;
+    height: 4rem;
+    margin: 0.25rem;
+    /* background-color: #fff; */
+}
+
+/* -- Element ID css-1i27l4i contains each connectors name, and linked */
+.css-1i27l4i { /* Target container and element */
+    display: flex;
+    flex-direction: column;
+    gap: 0rem !important;
+}
+
+/* -- Element Id css-19yfh6y is for the helperText on the Stripe connector */
+.css-19yfh6y {
+    margin: 0px 0px 0px !important;
+    font-size: 1rem !important;
+    font-family: Roboto, Helvetica, Arial, sans-serif !important;
+    text-align: center !important;
+    letter-spacing: 0.00938em;
+    color: rgb(24, 23, 29);
+}
+
+/* -- Element Id css-wy0cvq is for the linked helperText on the Stripe connector */
+.css-wy0cvq {
+    font-size: 1rem !important;
+    font-weight: bold !important;
+}
+
+.hg-connector-card .hg-connector-name {
+    font-size: 18px;
+    font-weight: 600;
+    align-items: center;
+    padding: 0.5rem;
+    color: #fff;
+}
+
+.hg-connector-card .hg-connector-linked {
+    background:rgb(54, 196, 54);
+    /* min-width: 10px; */
+    height: 1.5rem;
+    margin: 0px;
+}
+
+.hg-connector-card .hg-connector-settings {
+    color: #fff;
+    border: 1px solid #777;
+    text-align: center;
+    margin: 0.5px;
+}
+
+.hg-connector-card:hover {
+    cursor: default;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.5)
+}
+
+.hg-flows-container .hg-flow-title {
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 550;
+    color: #ddd;
+}
+
+.hg-flows-container .hg-flow-subtitle {
+    font-size: 14px;
+    font-weight: 300;
+    color: #aaa;
+}
+
+/* -- Dividers between connector card -- */
+.css-39bbo6 {
+    border-color: #6e8cac !important;
+}
